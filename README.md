@@ -10,8 +10,7 @@
 
 Ini adalah aplikasi mobile Flutter untuk Proyek *Aplikasi Buku*. Aplikasi ini menampilkan antarmuka pengguna yang terhubung dengan backend API untuk autentikasi dan manajemen data buku.
 
-📦 **Backend Repository:** [Aplikasi Buku - Backend (CodeIgniter 4)](https://github.com/Leksastropsil/AplikasiBuku-CI4.git)  
-
+📦 **Backend Repository:** [Aplikasi Buku - Backend (CodeIgniter 4)](https://github.com/Leksastropsil/AplikasiBuku-CI4.git)
 
 ---
 
@@ -93,11 +92,15 @@ Aplikasi ini berkomunikasi dengan backend melalui endpoint:
 
 ---
 
-## Preview Aplikasi
+## 📱 Preview Aplikasi
 
-<img width="217" height="465" alt="image" src="https://github.com/user-attachments/assets/8571d506-cbf9-43d1-b327-58d4dc453327" />
-<img width="215" height="466" alt="image" src="https://github.com/user-attachments/assets/a64cae05-7450-47a3-9a86-4bb422aef08a" />
-<img width="215" height="463" alt="image" src="https://github.com/user-attachments/assets/3392af51-240b-42de-bb52-b9a56017ae6c" />
-<img width="214" height="461" alt="image" src="https://github.com/user-attachments/assets/cb71813d-a7a7-4587-b2b4-24a011e4f185" />
-<img width="213" height="462" alt="image" src="https://github.com/user-attachments/assets/1f70700d-53a8-4aa2-b507-acc28bd9b7a7" />
-<img width="214" height="464" alt="image" src="https://github.com/user-attachments/assets/97920851-2caf-44b0-93bb-b0c0a9ff6729" />
+| Tampilan | Gambar |
+|-----------|--------|
+| **Splash Screen** | <img width="217" height="465" alt="splash" src="https://github.com/user-attachments/assets/8571d506-cbf9-43d1-b327-58d4dc453327" /> |
+| **Login Page** | <img width="215" height="466" alt="login" src="https://github.com/user-attachments/assets/a64cae05-7450-47a3-9a86-4bb422aef08a" /> |
+| **Register Page** | <img width="215" height="463" alt="register" src="https://github.com/user-attachments/assets/3392af51-240b-42de-bb52-b9a56017ae6c" /> |
+| **Beranda Buku** | <img width="214" height="461" alt="beranda" src="https://github.com/user-attachments/assets/cb71813d-a7a7-4587-b2b4-24a011e4f185" /> |
+| **Tambah Buku** | <img width="213" height="462" alt="tambah" src="https://github.com/user-attachments/assets/1f70700d-53a8-4aa2-b507-acc28bd9b7a7" /> |
+| **Detail Buku** | <img width="214" height="464" alt="detail" src="https://github.com/user-attachments/assets/97920851-2caf-44b0-93bb-b0c0a9ff6729" /> |
+| **Edit Buku** | <img width="215" height="464" alt="edit" src="https://github.com/user-attachments/assets/216b06e9-e48f-4238-8c85-db69ba44c44e" /> |
+| **Konfirmasi Hapus Buku** | <img width="214" height="461" alt="delete" src="https://github.com/user-attachments/assets/d9b48877-9b78-4973-adbe-83cf72a0ce27" /> |
