@@ -8,7 +8,10 @@
 
 ## Deskripsi Proyek
 
-Frontend ini adalah aplikasi mobile Flutter untuk Proyek *Aplikasi Buku*. Aplikasi ini menampilkan antarmuka pengguna yang terhubung dengan backend API untuk autentikasi dan manajemen data buku.
+Ini adalah aplikasi mobile Flutter untuk Proyek *Aplikasi Buku*. Aplikasi ini menampilkan antarmuka pengguna yang terhubung dengan backend API untuk autentikasi dan manajemen data buku.
+
+📦 **Backend Repository:** [Aplikasi Buku - Backend (CodeIgniter 4)](https://github.com/Leksastropsil/AplikasiBuku-CI4.git)  
+
 
 ---
 
@@ -31,10 +34,6 @@ Frontend ini adalah aplikasi mobile Flutter untuk Proyek *Aplikasi Buku*. Aplika
    - Setiap card berisi **cover**, **judul**, dan **author**.  
    - Di pojok kanan bawah terdapat **Floating Action Button (FAB)** berikon `+` untuk menambahkan buku baru.  
    - Klik pada card buku akan membuka halaman **Detail Buku**.
-
-   Contoh tampilan:
-
-   ![Screenshot Dashboard](screenshot_dashboard.png)
 
 5. **Halaman Detail Buku**  
    - Menampilkan detail lengkap buku:  
@@ -74,12 +73,15 @@ lib/
  │    └── book.dart
  ├── services/
       └── api_service.dart
-
 ```
 
 ---
 
 ## API Integrasi
+
+Base URL untuk semua endpoint adalah:  
+- `http://localhost:8080` *(jika dijalankan di browser)*  
+- `http://10.0.2.2:8080` *(jika dijalankan di Android Emulator)*
 
 Aplikasi ini berkomunikasi dengan backend melalui endpoint:
 - `POST /api/auth/login`
@@ -91,9 +93,11 @@ Aplikasi ini berkomunikasi dengan backend melalui endpoint:
 
 ---
 
+## Preview Aplikasi
+
 <img width="217" height="465" alt="image" src="https://github.com/user-attachments/assets/8571d506-cbf9-43d1-b327-58d4dc453327" />
-<img width="236" height="478" alt="image" src="https://github.com/user-attachments/assets/0ffefd68-58d3-4cb7-841a-f90a8aa59433" />
 <img width="215" height="466" alt="image" src="https://github.com/user-attachments/assets/a64cae05-7450-47a3-9a86-4bb422aef08a" />
-
-
-
+<img width="215" height="463" alt="image" src="https://github.com/user-attachments/assets/3392af51-240b-42de-bb52-b9a56017ae6c" />
+<img width="214" height="461" alt="image" src="https://github.com/user-attachments/assets/cb71813d-a7a7-4587-b2b4-24a011e4f185" />
+<img width="213" height="462" alt="image" src="https://github.com/user-attachments/assets/1f70700d-53a8-4aa2-b507-acc28bd9b7a7" />
+<img width="214" height="464" alt="image" src="https://github.com/user-attachments/assets/97920851-2caf-44b0-93bb-b0c0a9ff6729" />
